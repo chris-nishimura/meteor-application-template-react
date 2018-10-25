@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Image, Icon, Header } from 'semantic-ui-react';
+import { Grid, Icon, Header } from 'semantic-ui-react';
 
 /** A simple static component to render some text for the landing page. */
 class Landing extends React.Component {
@@ -16,8 +16,8 @@ class Landing extends React.Component {
 
           <Grid.Column textAlign='center'>
             <Icon size='huge' name='file text' />
-            <Header as='h1' inverted>Contact Details</Header>
-            <Header as='h3' inverted>For each contact, you can save their name, address, and phone number</Header>
+            <Header as='h1' >Contact Details</Header>
+            <Header as='h3' >For each contact, you can save their name, address, and phone number</Header>
           </Grid.Column>
 
           <Grid.Column textAlign='center'>
